@@ -1,2 +1,3 @@
-https://piushhh.github.io/Tabs/
-https://roadmap.sh/projects/simple-tabs
+# Tabs Component
+
+You can view the live project here: https://piushhh.github.io/Tabs/

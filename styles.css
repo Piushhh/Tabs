@@ -4,3 +4,8 @@
     padding-left: 20px;
     padding-right: 20px;
 }
+.firstdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

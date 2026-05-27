@@ -1,5 +1,13 @@
-const btn = document.querySelector(".tab-btn-active");
-const btn = document.querySelector(".tab-btn");
-const ActiveContent = document.querySelector("#Tab-content-active")
-const content = document.querySelectorAll("#Tab-content")
+const buttons = document.querySelectorAll(".tab-btn")
+const content = document.querySelectorAll(".Tab-content")
 
+buttons.forEach((element, index) => {
+    element.addEventListener("click", () => {
+        buttons.forEach(btn => btn.classList.remove("active"));
+        content.forEach(cnt => cnt.classList.remove("active"));
+
+        element.classList.add("active");
+        content[index].classList.add("active")
+
+    })
+})
